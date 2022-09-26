@@ -15,4 +15,4 @@ Setup using static linking.
 
 Dependencies: opengl32.lib;freetype.lib;winmm.lib;gdi32.lib
 
-After checking the green dot displays at the end of the tutorial, add the source files from this repository to the project and build the project.
+After checking the green dot displays at the end of the tutorial, add the source files, boards and images from this repository to the project and build the project.

@@ -418,7 +418,7 @@ void Board::CheckWin()
 	{
 		for (int j = 0; j < rows; j++)
 		{
-			if ((tiles[i][j].blank || tiles[i][j].adjacentTiles > 0) && !tiles[i][j].revealed && !tiles[i][j].mine)
+			if ((tiles[i][j].blank || tiles[i][j].numAdjacent > 0) && !tiles[i][j].revealed && !tiles[i][j].mine)
 			{
 				return;
 			}
